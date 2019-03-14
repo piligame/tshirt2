@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* 個人資料及大頭照-start */
+#tabs { height:auto; width:auto; margin:0px 9px 9px 0px; position:static !important; } 
+.tabs-bottom { position:relative !important; } 
+.tabs-bottom .ui-tabs-panel { height: auto; width:auto; overflow:visible; padding:0px; margin-left:90px; } /* 顯示內容區塊 */
+.tabs-bottom .ui-tabs-nav { float:left; position:static !important; left: 0; bottom: 0; top:0; padding: 0px; height:128px;} 	/* 將選單放置相對位置左方 */
+.tabs-bottom .ui-tabs-nav li { margin: 1px 0px !important; border-left: none; clear:left;  width:80px;}	/* 選單 */
+.ui-tabs-nav li.ui-tabs-selected { width:82px !important; margin-right:-2px !important;  border-right-width: 0px !important; } /* 已選取選單 */
+/* 個人資料及大頭照-end */

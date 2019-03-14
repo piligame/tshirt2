@@ -1,0 +1,316 @@
+@charset "utf-8";
+.pic193, .car {
+	list-style:none;
+	margin:0px 2px;
+	padding:0px;
+}
+
+.pic193 li {	
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-left:1px;
+	margin-right:2px;
+	height:auto;
+	float:left;
+}
+
+.pic193 li, .car li {
+	margin-bottom:10px;
+}
+
+.car {
+	margin-top:12px;
+	text-align:center;
+}
+
+.car li {
+	width:190px;
+}
+
+.car li img {
+	border:none;
+}
+
+.pic193 img {
+	float:left;
+	height:auto;
+	width:150px;
+	margin:2px 20px;
+	padding:0px;
+	border-style:none;
+}
+
+.red_name_center {
+	text-align:center;
+	clear:left;
+}
+
+.red_name_center A {
+	text-decoration:none;
+	color:#000;
+}
+
+.red_name_center A:hover {
+	color:#C33;
+}
+
+#div_big_img, .show_content {
+	width:auto;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+
+#tabs {
+	width:100% !important;
+	clear:left;
+}
+#div_big_img {
+	text-align:center;
+	overflow:hidden;
+}
+
+.pic_clearfix {
+	list-style:none;
+	margin:0px;
+	padding:2px 0px;
+	width:auto;
+	height:auto;
+}
+
+.pic_li {
+	margin:4px;
+	padding:4px 4px 0px;
+	background-color:#CCC;
+	width:100px;
+}
+
+.pic_li img {
+	width:100px;
+}
+
+.pic_desc {
+	width:100px;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+/* ul show內容-start */
+.show_content {
+	list-style:none;
+	margin:8px 0px 0px;
+	padding:0px;
+	font-size:13px;
+}
+
+.show_content li {
+	margin-bottom:9px;
+}
+
+.li_title {
+	width:90px;
+	text-align:right;	
+	font-weight:bold;
+}
+
+.ol_button {
+	list-style:none;
+	text-align:center;
+}
+
+.ol_button li {
+	float:left;
+	width:50%;
+	line-height:30px;
+}
+
+.show_button {
+	background-color:#FFE1FF;
+	padding:8px;
+}
+
+.li_value {
+	color:#333;
+	vertical-align:top;
+	height:100%;
+}
+
+.clear_4pic {
+	float:left;
+	width:auto;
+}
+
+.clear_4pic img {
+	width:50px;
+	cursor:pointer;
+}
+
+.clear_4pic a img {
+	border-style:none;
+}
+
+.author {
+	line-height:50px;
+	vertical-align:middle;
+}
+/* ul show內容-end */
+
+/* ul給分-start */
+.gefen {
+	float:left;
+	list-style:none;
+	margin-top:12px;
+	padding:0px;
+	width:340px;
+	height:auto;
+	text-align:center;
+}
+
+.gefen li {
+	float:left;
+	margin:2px;
+	padding:4px 9px;	
+}
+
+.gefen li.mark {
+	background-color:#CCC;
+	color:#000;
+}
+
+.gefen li.mark:hover {
+	background-color:#6C0;
+	color:#FFF;
+	cursor:pointer;
+}
+/* ul給分-end */
+
+/* ul評論-start */
+.bigoli li {	
+	padding-top:3px;
+	padding-bottom:3px;
+	width:100%;
+	float:left;
+	border-bottom:dashed 1px #9C3;
+}
+
+.bigoli img {
+	float:left;
+	height:auto;
+	width:50px;
+	border-style:none;
+}
+
+.pic100_detail {
+	list-style-type:none;
+	width:auto;
+	height:auto;
+	margin:0px 10px;
+	padding:0px;
+}
+
+.pic100_detail li {
+	border-style:none;
+	line-height:16px;
+	margin:0px;
+	height:auto;
+}
+
+.li_width1 {
+	width:545px !important;
+	margin:0px 9px !important;
+}
+
+.li_width2 {
+	width:115px !important;
+	margin:0px 2px !important;
+}
+
+.li_width3 {
+	width:480px !important;
+	margin:0px 9px !important;
+}
+
+.li_width4 {
+	width:54px !important;
+	text-align:right;
+}
+
+.li_width5 {
+	width:70px;
+	text-align:right;
+}
+
+.redo {
+	text-align:center;
+	margin:5px 0px;
+	font-weight:bold;
+}
+
+.redo a {
+	text-decoration:none;
+	color:#06C;
+}
+
+.redo a:hover {
+	text-decoration:underline;
+}
+
+.redo_detail {
+	margin:2px;
+	padding:4px;
+	border-style:dashed;
+	border-width:1px;
+	border-color:#669999;
+}
+/* ul評論-end */
+
+/* 字型-start */
+.big_font {
+	font-size:16px !important;
+	font-weight:bold;
+	color:#036;
+}
+/* 字型-end */
+
+/* 位置-start */
+.txt_lalign {
+	text-align:left !important;
+	color:#333;
+	cursor:pointer;
+}
+.txt_lalign2 {
+	text-align:left !important;
+	color:#333;
+}
+
+
+.txt_lalign li {
+	border-bottom:1px dashed #009966;
+}
+/* 位置-end */
+
+/* 文字編輯器-start */
+.edit_text {
+	margin:8px 0px 0px !important;
+	width:100%;
+}
+/* 文字編輯器-end */
+
+/* tab頁籤-start */
+.ui-tabs, .ui-tabs-panel {
+	background-color:#fff !important;
+}
+/* tab頁籤-end */
+.select {
+	font-size:16px !important;
+}
+
+.div_frm {
+	border:1px solid #963;
+}
+
+.font_model_title A:hover {
+	text-decoration:underline;
+}

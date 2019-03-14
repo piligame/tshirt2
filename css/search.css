@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* 符合商品模特兒區-start */
+.pic84 {
+	list-style:none;
+	margin:0px 2px;
+	padding:0px;
+}
+
+.pic84 li {
+	border-bottom-style:dotted;
+	border-bottom-width:1px;
+	border-bottom-color:#FF3300;
+	padding-top:3px;
+	padding-bottom:3px;
+	clear:left;
+	height:auto;
+}
+
+.pic84 img {
+	width:84px;
+	margin-left:0px;
+	margin-right:2px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border-style:none;
+}
+
+.model_ol {
+	list-style-type:none;
+	margin-left:0px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	width:auto;
+	float:left;
+	height:84px;
+}
+
+.model_ol li {
+	border-style:none;
+	line-height:16px;
+	height:auto;
+	width:110px;
+}
+/* 符合商品模特兒區-end */
+
+/* 多重設定-start */
+.pic100, .pic100 img, .pic100_detail {
+	margin:0px;
+	padding:0px;
+}
+/* 多重設定-end */
+
+/* 產品搜尋結果-start */
+.hd_pap_padding img {
+	border-style:none;
+}
+
+.hd_pap {
+	width:310px;
+	padding-left:10px !important;
+}
+
+.hd_pap2 {
+	width:140px !important;
+}
+
+.hd_pap3 {
+	width:90px !important;
+}
+
+.hd_pap4 {
+	width:215px !important;
+}
+
+.pic100 {
+	list-style:none;
+	width:auto;
+}
+
+.pic100 li {	
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-left:1px;
+	margin-right:2px;
+	width:100%;
+	float:left;
+	border-bottom:dashed 1px #9C3;
+}
+
+.pic100 img {
+	float:left;
+	height:auto;
+	width:100px;
+	border-style:none;
+}
+
+.pic100_detail {
+	list-style-type:none;
+	width:100%;
+	height:80px;
+}
+
+.pic100_detail li {
+	border-style:none;
+	line-height:16px;
+	margin:0px;
+	height:auto;
+}
+/* 產品搜尋結果-end */

@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* table-start */
+table {
+	background-color:#999;
+	color:#000;
+	font-size:12px;
+}
+
+tr {
+	text-align:left;
+	background-color:#FFF;
+}
+
+tr th, .tr_center {
+	text-align:center;
+}
+
+.td_head, .td_head2 {
+	background-color:#EFEFEF;
+	text-align:right;
+	font-weight:bold;
+	width:100px;
+}
+
+.td_head2 {
+	width:auto !important;
+	text-align:left !important;
+}
+
+/* 訂單資料-start */
+.tgb td {
+	background-color:#FFE6E6 !important;
+}
+
+.tbg2 {
+	border:1px solid #FF7575 !important;
+}
+
+.tbg2 tr td {
+	text-align:center;
+	background-color:#FFF;
+}
+
+.tbg2 div {
+	text-align:center;
+}
+
+.tbg2 a {
+	text-decoration:none;
+}
+
+.order_tb {
+	border:1px solid #CCC;
+}
+
+.order_tb td {
+	height:30px;
+	color:#333;
+}
+
+.order_tb a {
+	color:#933;
+	text-decoration:none;
+}
+
+.order_tb a:hover {
+	text-decoration:underline;
+}
+
+.order_tr td {
+	background-color:#EABD95;
+}
+
+.order_tr_color td {
+	background-color:#EDEDDA;
+}
+
+.div_width {
+	float:left;
+	width:4px;
+}
+
+.td_div1 {
+	width:80px;
+	padding-right:1px;
+	text-align:right !important;
+}
+
+.td_div2 {
+	width:30px;
+	text-align:right !important;
+}
+
+.td_div3 {
+	width:70px;
+	padding-right:1px;
+	text-align:right !important;
+}
+
+.td_div4 {
+	width:75px;
+	padding-right:1px;
+	text-align:right !important;
+}
+
+.urder_td td {
+	border-bottom-style:dashed;
+	border-bottom-color:#999;
+	border-bottom-width:1px;
+}
+/* 訂單資料-end */
+/* table-end */
+
+/* 控制項-start */
+.up_but {
+	height:22px !important;
+	margin:0px 4px;
+	cursor:pointer;
+	background-color:#FFCC33;
+}
+/* 控制項-end */
+.licontext {
+	float:left;
+	margin:8px 0px 0px 0px;
+	height:100%;
+	width:820px;
+	background-color:#fff;
+}
+
+/* 討論-start */
+.user_width3 {
+	width:563px;
+	margin:0px 9px 0px 0px;
+	font-size:12px;
+}
+
+.user_width3 a, .user_talk1 a {
+	text-decoration:none;
+}
+
+.user_width3 a:hover, .user_talk1 a:hover {
+	color:#933;
+}
+
+.user_talk1 {
+	width:120px;
+	margin:0px 9px 0px 0px;
+}
+
+.user_talk2 {
+	width:440px;
+	margin:0px 9px 0px 0px;
+}
+
+.user_del {
+	width:100px;
+	text-align:center;
+}
+
+.user_del input {
+	height:20px;
+	margin:2px 4px;
+	cursor:pointer;
+}
+/* 討論-end */
+
+/* 好友-start */
+.user_image li {
+	border-top:1px dashed #669;
+	border-bottom:none !important;
+}
+
+.user_image li a {
+	color:#069 !important;
+}
+
+.user_image li span {
+	color:#666;
+	font-size:12px;
+	padding:1px 5px 1px;
+}
+
+.user_cancel {
+	float:right;
+	height:auto !important;
+	cursor:pointer;
+}
+/* 好友-end */
+
+/* 帳管-start */
+.acc_div {
+	float:left;
+	margin-right:30px;
+}
+/* 帳管-end */

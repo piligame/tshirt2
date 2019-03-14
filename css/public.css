@@ -1,0 +1,98 @@
+.SearchTitleWord
+{
+	font-size: 12px;
+	/*background: url(./_images/b02.gif);*/
+	background: url(../images/folder-closed.gif)
+	no-repeat; float: left; height: 14px; width: 26px; padding-right: 3px ;
+	behavior: url(../htc/SearchTitle.htc);
+	cursor: hand;
+	color: dimgray;
+}
+
+
+.SearchTitle
+{
+	border-right: #3399ff 3px double;
+	padding-right: 10px;
+	border-top: #3399ff 3px double;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	border-left: #3399ff 3px double;
+	color: #000099;
+	margin-right: 10px;
+	padding-top: 10px;
+	border-bottom: #3399ff 3px double;
+	background-color: transparent;
+	font: 12px;
+}
+
+#aid {
+	color:#069;
+}
+/*.folder { background: url(../images/folder-closed.gif)  no-repeat; float: left; height: 14px; width: 26px; padding-right: 3px }*/
+
+/*錯誤訊息*/
+#msg {
+	color:red;
+	font-size:12px;
+	vertical-align:middle;
+}
+
+/*動畫載入*/
+#img_ajax {
+	float:none;
+	position:inherit; 
+	margin-left:10px;
+}
+
+.text_diabled {
+	background-color:#E0E0E0;
+	/*behavior: url(../htc/disabled.htc);
+	-moz-binding: url(../htc/bindings.xml#disabled.htc);	*/
+}
+
+.notext_diabled {
+	background-color:#FFF;
+	/*behavior: url(../htc/nodisabled.htc);
+	-moz-binding: url(../htc/bindings.xml#nodisabled.htc);	*/
+}
+
+.bgc1 {
+	background-color:#99CCCC;
+	color:#666;
+	padding:2px;
+	margin:1px;
+}
+
+.bgc2 {
+	background-color:#FFF;
+	color:#666;
+	padding:2px;
+	margin:1px;
+}
+
+.bgc1_nomargin {
+	background-color:#99CCCC;
+	color:#666;
+	padding:0px;
+	margin:0px;
+}
+
+.bgc2_nomargin {
+	background-color:#FFF;
+	color:#666;
+	padding:0px;
+	margin:0px;
+}
+
+.smllfont {
+	font-size:10px;
+}
+
+.tablewidth100 {
+	width:100%;
+	border:0;
+	background-color:#333;
+}

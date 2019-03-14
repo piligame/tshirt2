@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* 型-start */
+.red_setup {
+	font-size:16px;
+	font-weight:bold;
+	color:#933;
+	line-height:28px;
+}
+
+.red_setup2 {
+	font-weight:bold;
+	color:#933;
+}
+
+.font_normal {
+	font-weight:100;
+}
+
+.fontt {
+	font-weight:bold;
+}
+/* 字型-end */
+
+.line_hight {
+	line-height:18px;
+}
+
+.line_hight2 {
+	line-height:24px;
+}
+
+.show_content {
+	list-style:none;
+	margin:8px 0px 0px;
+	padding:0px;
+	font-size:12px;
+}
+
+.show_content li {
+	line-height:30px;
+	width:100%;
+	margin:4px 0px;
+	border-bottom:dashed 1px #9C3;
+}
+
+.header {
+	font-weight:bold;
+	color:#555;
+	float:left;
+	margin-right:10px;
+}
+
+.urder_td td {
+	border-bottom-style:dashed;
+	border-bottom-color:#999;
+	border-bottom-width:1px;
+}
+
+/* td-start */
+.td_div1 {
+	width:80px;
+	text-align:right;
+}
+
+.td_div2 {
+	width:30px;
+	text-align:right;
+}
+
+.td_div3 {
+	width:70px;
+	text-align:right;
+}
+
+.div_width {
+	float:left;
+	width:4px;
+}
+
+td div {
+	text-align:center;
+}
+
+td div img {
+	cursor:pointer;
+}
+/* td-end */
+
+/* tr-start */
+.tgb td {
+	background-color:#FFE6E6;
+}
+
+.tbg2 {
+	border:1px solid #FF7575;
+}
+
+.tbg2 a {
+	text-decoration:none;
+}
+
+.order_tb {
+	border:1px solid #CCC;
+}
+
+.order_tb td {
+	height:30px;
+	color:#333;
+}
+
+.order_tb a {
+	color:#933;
+	text-decoration:none;
+}
+
+.order_tb a:hover {
+	text-decoration:underline;
+}
+
+.order_tr td {
+	background-color:#EABD95;
+}
+
+.order_tr_color td {
+	background-color:#EDEDDA;
+}
+/* tr-end */
+
+/* 控制項-start */
+.input_face {
+	height:24px;
+	cursor:pointer;
+	margin:2px 8px;
+	padding:0px 4px;
+}
+
+.radio {
+	border:none;
+}
+
+textarea {
+	font-size: 12px;
+	color:#555;
+	border: 1px solid #bebea6;
+}
+/* 控制項-end */
+
+/* 訂單資訊-start */
+.lbl_div, .lbl_div2, .lbl_div3 {
+	width:130px;
+	float:left;
+	font-weight:bold;
+	text-align:right;
+	color:#555;
+}
+
+.lbl_div2 {
+	text-align:left;
+	font-weight:100;
+	width:auto;
+	margin-left:8px;
+}
+
+.lbl_div3 {
+	text-align:left;
+	width:100px;
+}
+
+.div_margin {
+	margin:9px 0px;
+}
+/* 訂單資訊-end */
+
+/* ul-start */
+.ul_order {
+	list-style:none;
+	margin:8px 0px;
+	padding:0px;
+}
+
+.ul_order li {
+	float:left;
+	margin-right:20px;
+}
+/* ul-end */
+
+/* 補強top.css-start */
+.hr_dot {
+	clear:left;
+}
+
+.reg_hd {
+	width:100%;
+}
+
+.bigoli li {
+	clear:left;
+}
+/* 補強top.css-end */
+
+.bg_answer {
+	margin:8px 0px 4px;
+	padding:4px 8px 4px;
+}

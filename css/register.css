@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* 步驟指標-start */
+.account_setup {
+	float:left;
+	width:940px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+.account_setup li {
+	height:24px;
+	padding-top:4px;
+	width:228px;
+	float:left;
+	margin-left:-40px;
+	margin-right:50px;
+	list-style:none;
+	text-align:center;
+}
+
+.setup1 {
+	background-image:url(../images/regi_1.gif);
+}
+
+.setup2 {
+	background-image:url(../images/regi_2.gif);
+}
+
+.setup3 {
+	background-image:url(../images/regi_3.gif);
+}
+
+.setup4 {
+	background-image:url(../images/regi_4.gif);
+}
+
+.white {
+	color:#FFF;
+}
+
+.white2 {
+	color:#666;
+}
+/* 步驟指標-end */
+
+/* 將checkBox外框拿掉-start */
+.reg_hd .fcheckbox input {
+	border-style:none;
+}
+
+.spancheck {
+	vertical-align:bottom;
+	line-height:28px;
+}
+/* 將checkBox外框拿掉掉-end */
+
+.lbl_div {
+	width:130px;
+	float:left;
+	text-align:right;
+}
+
+.mail_msg {
+	font-size:12px;
+	color:#0099FF;
+}

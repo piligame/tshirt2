@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<public:component xmlns:public="urn:HTMLComponent" lightweight="true">
+<public:attach for="element" event="onclick" handler="low_lite" />
+<script type="text/javascript">
+	element.disabled = true;	
+	element.style.backgroundColor = "#E0E0E0";
+</script>
+</public:component>

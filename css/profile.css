@@ -1,0 +1,365 @@
+@charset "utf-8";
+.hd_frame {
+	float:left;
+}
+
+.main_menu {
+	list-style:none;
+	margin:8px;
+	padding:0px;
+}
+
+.main_menu li {
+	background-color:#F90;
+	margin:8px 4px;
+	padding:6px 4px;
+	text-align:center;
+}
+
+.main_menu li a {
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.main_menu li a:hover {
+	color:#900;
+}
+
+/* 修改top.css-start */
+.model_name A {
+	padding:1px;
+}
+
+.model_name A:hover {
+	color:#900 !important;;
+}
+
+.pic100_div img {
+	width:100px;
+}
+
+.nobottom {
+	border:none !important;
+}
+
+.product_title {
+	margin-right:10px;
+	margin-bottom:10px !important;;
+}
+
+.margin0 {
+	margin:0px !important;
+}
+/* 修改top.css-end */
+
+/* 個人主頁-start */
+.profile_desc {
+	float:left;
+	margin:4px 0px 0px 10px;
+	width:375px;
+}
+
+.profile_desc ol {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+.profile_desc ol li {
+	float:left;
+	width:375px;
+	line-height:18px;
+	margin:4px 0px;
+}
+
+ol li.name, ol li .name {
+	border-bottom:1px dashed #C63;
+	text-align:center;
+	font-size:16px;
+}
+
+ol li .name {
+	width:300px;
+	float:left;
+}
+
+.li_title, .li_title2 {
+	float:left;
+	width:92px;	
+}
+
+.li_title {
+	text-align:right;
+}
+
+.li_value {
+	color:#333;
+	vertical-align:top;
+	height:100%;
+}
+
+div h4 {
+	PADDING-RIGHT: 0pt; 
+	PADDING-LEFT: 0px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 16px; 
+	PADDING-BOTTOM: 0.1em; 
+	COLOR: #f5f5f5; 
+	PADDING-TOP: 0.1em; 
+	BACKGROUND-COLOR:#00CCCC;
+	TEXT-ALIGN:center;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:20px;
+}
+
+.area_clearfix_top {
+	list-style:none;
+	margin:4px 8px 0px;
+	padding:0px 0px 8px;
+	overflow:hidden;
+}
+
+.house_shop_nounder {
+	float:left;
+	margin:0px 5px;
+	padding:0px;
+	width:500px;
+	height:20px;
+	font-size:12px;
+}
+
+.lbl_div_left {
+	width:100px;
+	float:left;
+	text-align:left;
+	color:#666;
+}
+
+.lbl_div_center {
+	width:250px;
+	float:left;
+	text-align:left;
+}
+
+.lbl_div_right_edit {
+	width:60px;
+	float:right;
+	color:#0066FF;
+}
+
+.edit_text {
+	text-decoration:none;
+}
+
+.edit_text:hover {
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.edit_img {
+	text-decoration:none;
+	background-repeat:no-repeat;
+	background-color:#69F;
+	vertical-align:middle;
+}
+
+.edit_img:hover {
+	cursor:pointer;
+	background-color:#069;
+}
+
+/* 最近訪客-start */
+.member_height {
+	height:120px !important;
+}
+/* 最近訪客-end */
+
+/* 個人主頁-end */
+
+/* 大頭照-start */
+#div_big_img {
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+
+#div_big_img img {
+	width:490px;
+	height:auto;
+}
+
+.pic_clearfix {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	width:auto;
+	height:auto;
+	text-align:center;
+	vertical-align:middle;
+	float:left;
+}
+
+.pic_li {
+	float:left;
+	margin-right:8px;
+	padding:5px 5px 0px;
+}
+
+.focus_li {
+	background-color:#FDD;
+	border:1px solid #F9C;
+}
+
+.pic_li img {
+	width:80px;
+}
+
+/* 換頁圖-start */
+.pic_point {
+	margin:0px 0px 10px 190px !important;
+}
+/* 換頁圖-end */
+/* 大頭照-end */
+
+/* 網友留言-start */
+.bigoli li {	
+	padding-top:3px;
+	padding-bottom:3px;
+	width:100%;
+	float:left;
+	border-bottom:dashed 1px #9C3;
+}
+
+.bigoli img {
+	float:left;
+	height:auto;
+	width:50px;
+	border-style:none;
+}
+
+.pic100_detail {
+	list-style-type:none;
+	width:auto;
+	height:auto;
+	margin:0px 10px;
+	padding:0px;
+}
+
+.pic100_detail li {
+	border-style:none;
+	line-height:16px;
+	margin:0px;
+	height:auto;
+	width:100%;
+}
+
+.pic100_detail li.header {
+	background-color:#CC9;
+	text-align:center;
+	font-weight:bold;
+}
+
+.pic100_detail li div {
+	float:left;
+	font-size:12px;
+}
+
+.li_width1 {
+	width:400px !important;
+	margin:0px 9px !important;
+}
+
+.li_width2 {
+	width:104px !important;
+	margin:0px 2px !important;
+}
+
+.li_width3 {
+	width:463px !important;
+	margin:0px 9px 0px 0px !important;
+}
+
+.li_width3 a, .li_talk1 a {
+	text-decoration:none;
+}
+
+.li_width3 a:hover, .li_talk1 a:hover {
+	color:#933;
+}
+
+.li_talk1 {
+	width:100px !important;
+	margin:0px 9px 0px 0px !important;
+}
+
+.li_talk2 {
+	width:354px !important;
+	margin:0px 9px 0px 0px !important;
+}
+
+.redo {
+	text-align:center;
+	margin:5px 0px;
+	font-weight:bold;
+}
+
+.redo a {
+	text-decoration:none;
+	color:#06C;
+}
+
+.redo a:hover {
+	text-decoration:underline;
+}
+
+.redo_detail {
+	margin:2px;
+	padding:4px;
+	border-style:dashed;
+	border-width:1px;
+	border-color:#669999;
+}
+
+.put_text {
+	margin:8px 0px 0px;
+	width:580px;
+}
+
+.show_content {
+	width:auto;
+	height:auto;
+	list-style:none;
+	margin:8px 0px 0px;
+	padding:0px;
+	font-size:13px;
+}
+
+.show_content ol {
+	list-style:none;
+	margin:9px 0px 0px;
+	padding:10px 0px 0px;
+}
+
+.show_content li {
+	margin-bottom:9px;
+}
+/* 網友留言-end */
+
+/* 討論區-start */
+.bg_answer {
+	background-color:#FFC !important;
+}
+/* 討論區-end */
+
+/* 控制項-start */
+.house_shop_nounder input {
+	height:15px !important;
+}
+
+.house_shop_nounder .but_ok, .but_ok {
+	height:25px !important;
+}
+/* 控制項-end */

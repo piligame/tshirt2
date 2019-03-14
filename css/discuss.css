@@ -1,0 +1,196 @@
+@charset "utf-8";
+.bigoli li {	
+	padding:4px;
+	margin:4px;
+	width:72px;
+	float:left;
+	font-size:14px;
+	text-align:center;
+	background-color:#FFE1E1;
+}
+
+.bigoli li a {
+	color:#333;
+	text-decoration:none;
+}
+
+.bigoli li a:hover {
+	text-decoration:underline;
+}
+
+.focusblue {
+	color:#06C;
+}
+
+.createpaper, .createpaper2 {
+	float:right !important;
+	background-color:#639 !important;
+	color:#FFF;
+	cursor:pointer;	
+}
+
+.createpaper2 {
+	margin:8px 0px;
+	padding:0px 8px;
+	font-size:14px;
+	line-height:30px;
+}
+
+.newblog_down.detail {
+	background-color:#FFF;
+	color:#960;
+	font-size:14px;
+	padding:6px 0px;
+}
+
+.newblog_down.detail:hover {
+	background-color:#FFC;
+}
+
+.newblog_down.detail A {
+	text-decoration:none;
+}
+
+.hd_pap {
+	width:400px;
+}
+
+.hd_pap2 {
+	width:120px;
+}
+
+.hd_pap3 {
+	width:70px;
+}
+
+.hd_pap4 {
+	width:90px;;
+}
+
+.page.hd_pap5 {
+	width:600px;
+}
+
+/* 討論區內容-start */
+.ol_discuss, .ol_discuss li, .ul_discuss, .limen, .limen2, .licontext, .licontext2 {
+	margin:0px;
+	padding:0px;
+}
+
+.ul_discuss li {
+	float:left;
+	margin:0px;
+	padding:0px;
+	text-align:right;
+	line-height:30px;
+	vertical-align:top;
+}
+
+.ol_discuss, .ul_discuss {
+	list-style:none;
+}
+
+.ol_discuss li {
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+.ol_discuss li.subtract {
+	margin-bottom:-1px;
+}
+
+.limen, .limen2 {
+	float:left;
+	width:150px;
+}
+
+.limen, .licontext2 {
+	background-color:#E8F3FF;
+}
+
+.limen2 {
+	background-color:#D9ECFF;
+}
+
+.licontext2, .limen2 {
+	height:6px;
+}
+
+.licontext, .div_fotter {
+	float:left;
+	margin-left:10px;
+	height:100%;
+	width:820px;
+	background-color:#fff;
+}
+
+.div_fotter {
+	border-top:1px dashed #99CC00;
+}
+
+.div_fotter div {
+	float:left;
+	cursor:pointer;
+}
+
+.licontext2 {
+	float:left;
+	width:830px;
+}
+
+.divt1, .divt2, .divt3, .div_fotter {
+	line-height:30px;
+	height:30px;
+	vertical-align:middle;
+}
+
+.divt1, .divt2 {
+	border-bottom:1px dashed #99CC00;
+}
+
+.divt1 {	
+	padding-left:16px;
+}
+
+.divt2 img, .div_fotter img {
+	margin:6px 4px 0px 0px;
+	float:left;
+}
+
+.vtop {
+	vertical-align:top;
+}
+
+.divpic {
+	float:left;
+	width:auto;
+	height:auto;
+	margin:0px;
+	padding:15px;
+}
+
+.divpic img {
+	float:left;
+	height:auto;
+	width:120px;
+}
+/* 討論區內容-end */
+
+/* 高度、寬度-start */
+.bighight {
+	height:50px;
+}
+
+.li_width1 {
+	margin-left:10px !important;
+}
+
+.li_width1, .li_width2 {
+	width:60px !important;
+}
+
+.li_width3 {
+	width:565px !important;
+}
+/* 高度、寬度-end */

@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* 模特兒區-start */
+.pic84, .pic100, .souit, .king ol {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.clear_4pic {
+	float:left;
+	width:190px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#669999;
+}
+
+.clear_4pic img {
+	width:46px !important;
+	margin-right:1px !important;
+	cursor:pointer;
+}
+
+.pic84 li {
+	padding-top:3px;
+	padding-bottom:3px;
+	clear:left;
+	height:auto;
+}
+
+.pic84 img {
+	width:84px;
+	margin-left:0px;
+	margin-right:2px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border-style:none;
+}
+
+.model_ol {
+	list-style-type:none;
+	margin-left:0px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	width:auto;
+	float:left;
+	height:84px;
+}
+
+.model_ol li {
+	border-style:none;
+	line-height:16px;
+	height:auto;
+	width:102px;
+}
+/* 模特兒區-end */
+
+/* 套裝區-start */
+.vertical_dot {
+	border-right:dotted 1px #00F;
+}
+
+.horizontal_dot {
+	float:left;
+	border-bottom:dotted 1px #00F;
+	margin-right:4px;
+	padding-bottom:2px;
+}
+
+.pic100 {
+	width:544px;
+}
+
+.pic100 li {	
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-left:1px;
+	margin-right:2px;
+	width:268px;
+	height:auto;
+	float:left;
+}
+
+.pic100 img {
+	float:left;
+	height:auto;
+	width:100px;
+	margin:0px;
+	padding:0px;
+	border-style:none;
+}
+
+.souit {
+	width:157px;
+	height:80px;
+}
+
+.souit li {
+	border-style:none;
+	line-height:16px;
+	height:auto;
+	width:157px;
+}
+/* 套裝區-end */
+
+/* 場合服飾討論-start */
+.newblog_down {
+	float:none !important;
+}
+
+#newblog_fotter {
+	width:auto;
+	text-align:center;
+	margin-right:1px;
+	margin-bottom:0px;
+	background-color:#FFC;
+	padding-top:4px;
+	padding-bottom:4px;
+	
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#CCCCCC;
+}
+
+#newblog_fotter A {
+	color: #1a84b7;
+	text-decoration:none;
+}
+
+.newblog_down.header {
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:#CCCCCC;
+	font-size:16px;
+}
+
+.newblog_down.detail {
+	background-color:#FFC;
+	color:#960;
+	font-size:14px;
+}
+
+.newblog_down.detail:hover {
+	background-color:#FF9;
+}
+
+.newblog_down.detail A {
+	text-decoration:none;
+}
+
+#hd_pap {
+	width:289px;
+}
+
+#hd_pap2 {
+	width:88px;
+}
+
+#hd_pap3 {
+	width:40px;
+}
+
+#hd_pap4 {
+	width:38px;
+}
+
+#hd_pap5 {
+	width:88px;
+}
+/* 場合服飾討論-end */
+
+/* 排行榜-start */
+ol.king {
+	list-style:none;
+	margin:2px 0px 0px;
+	padding:0px;
+	float:left;
+	width:190px;
+	border-top:solid 1px #999;
+}
+
+li.king {
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:189px;
+	border-left:solid 1px #999;
+}
+
+.king ol {
+	float:left;
+}
+
+.king ol li {
+	border-bottom:solid 1px #999;
+	border-right:solid 1px #999;
+	margin:0px;
+	padding:6px 0px;
+}
+
+.king_type_1 {
+	width:22px;
+	float:left;
+	text-align:center;
+}
+
+.king_type_2 {
+	width:104px;
+	float:left;
+}
+
+.king_type_2 A {
+	text-decoration:none;
+}
+
+.king_type_3 {
+	width:60px;
+	float:left;
+}
+/* 排行榜-end */
